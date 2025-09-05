@@ -21,9 +21,6 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Build Tailwind CSS
-      run: npx tailwindcss -i ./css/styles.css -o ./css/styles.min.css --minify
-
     - name: Optimize images
       run: npm run optimize-images
     - name: Deploy to GitHub Pages
