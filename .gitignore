@@ -1,10 +1,6 @@
 # Node modules
 node_modules/
 
-# Minified files
-js/*.min.js
-css/*.min.css
-
 # Build artifacts
 public/
 
