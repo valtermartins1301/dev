@@ -1,0 +1,16 @@
+# Node modules
+node_modules/
+
+# Minified files
+js/*.min.js
+css/*.min.css
+
+# Build artifacts
+public/
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db

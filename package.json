@@ -4,16 +4,15 @@
   "description": "Valter Martins' personal website",
   "main": "index.js",
   "scripts": {
-    "optimize-images": "imagemin img/* --out-dir=img/optimized",
-    "minify": "terser js/*.js -o js/ --compress --mangle && cleancss -o css/styles.min.css css/styles.css",
-    "purge-css": "purgecss --css css/styles.css --content index.html --output css/styles.purged.css"
+    "optimize-images": "imagemin img/* --out-dir=img/optimized"
   },
   "dependencies": {},
   "devDependencies": {
     "imagemin-cli": "^6.0.0",
     "terser": "^5.0.0",
     "clean-css-cli": "^5.0.0",
-    "purgecss": "^4.0.0"
+    "purgecss": "^4.0.0",
+    "style-loader": "^3.0.0"
   },
   "author": "Valter Martins",
   "license": "MIT"
